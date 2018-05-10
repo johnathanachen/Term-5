@@ -12,6 +12,11 @@
 		B863D12020A15DB700621C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B863D11E20A15DB700621C33 /* Main.storyboard */; };
 		B863D12220A15DB800621C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B863D12120A15DB800621C33 /* Assets.xcassets */; };
 		B863D12520A15DB800621C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B863D12320A15DB800621C33 /* LaunchScreen.storyboard */; };
+		B8A9350A20A4F12B006688E3 /* FillScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9350920A4F12B006688E3 /* FillScreen.swift */; };
+		B8A9350E20A4F171006688E3 /* EightGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9350D20A4F171006688E3 /* EightGrid.swift */; };
+		B8A9351020A4F186006688E3 /* RainbowStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9350F20A4F186006688E3 /* RainbowStackView.swift */; };
+		B8A9351220A4F19D006688E3 /* ConcentricSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9351120A4F19D006688E3 /* ConcentricSquares.swift */; };
+		B8A9351420A4F1CA006688E3 /* SixSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9351320A4F1CA006688E3 /* SixSquares.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B863D12120A15DB800621C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B863D12420A15DB800621C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B863D12620A15DB800621C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A9350920A4F12B006688E3 /* FillScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillScreen.swift; sourceTree = "<group>"; };
+		B8A9350D20A4F171006688E3 /* EightGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightGrid.swift; sourceTree = "<group>"; };
+		B8A9350F20A4F186006688E3 /* RainbowStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowStackView.swift; sourceTree = "<group>"; };
+		B8A9351120A4F19D006688E3 /* ConcentricSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentricSquares.swift; sourceTree = "<group>"; };
+		B8A9351320A4F1CA006688E3 /* SixSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixSquares.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		B863D11920A15DB700621C33 /* 02-Frame-Bounds-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				B863D11A20A15DB700621C33 /* AppDelegate.swift */,
 				B863D11C20A15DB700621C33 /* ViewController.swift */,
-				B863D11E20A15DB700621C33 /* Main.storyboard */,
-				B863D12120A15DB800621C33 /* Assets.xcassets */,
-				B863D12320A15DB800621C33 /* LaunchScreen.storyboard */,
+				B8A9350920A4F12B006688E3 /* FillScreen.swift */,
+				B8A9350D20A4F171006688E3 /* EightGrid.swift */,
+				B8A9350F20A4F186006688E3 /* RainbowStackView.swift */,
+				B8A9351120A4F19D006688E3 /* ConcentricSquares.swift */,
+				B8A9351320A4F1CA006688E3 /* SixSquares.swift */,
+				B8A9350820A4F114006688E3 /* Supporting Files */,
 				B863D12620A15DB800621C33 /* Info.plist */,
 			);
 			path = "02-Frame-Bounds-Challenge";
+			sourceTree = "<group>";
+		};
+		B8A9350820A4F114006688E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B863D11A20A15DB700621C33 /* AppDelegate.swift */,
+				B863D11E20A15DB700621C33 /* Main.storyboard */,
+				B863D12120A15DB800621C33 /* Assets.xcassets */,
+				B863D12320A15DB800621C33 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A9351020A4F186006688E3 /* RainbowStackView.swift in Sources */,
 				B863D11D20A15DB700621C33 /* ViewController.swift in Sources */,
+				B8A9351420A4F1CA006688E3 /* SixSquares.swift in Sources */,
+				B8A9350E20A4F171006688E3 /* EightGrid.swift in Sources */,
+				B8A9350A20A4F12B006688E3 /* FillScreen.swift in Sources */,
+				B8A9351220A4F19D006688E3 /* ConcentricSquares.swift in Sources */,
 				B863D11B20A15DB700621C33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

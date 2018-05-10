@@ -12,14 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setup()
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setup() {
+        for i in 0 ... 6 {
+            let width = view.bounds.width / 5
+            let randNumber = CGFloat(arc4random() % 1)
+            let randColor = UIColor(red: randNumber, green: randNumber, blue: randNumber, alpha: 1)
+            let rect = CGRect(x: 0, y: width + CGFloat(i), width: width, height: width)
+            let boxRow = UIView(frame: rect)
+            
+            view.addSubview(boxRow)
+        }
+        
     }
-
 
 }
 
