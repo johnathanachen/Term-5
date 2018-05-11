@@ -22,16 +22,16 @@ class RainbowStackView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        let numBoxes = frame.height / 60
+        let numBoxes = 15
         let boxRect = CGRect(x: 0, y: 0, width: bounds.width, height: 60)
         
         for i in 0 ..< Int(numBoxes) {
             let box = UIView(frame: boxRect)
             addSubview(box)
-            let hue = 1 / CGFloat(numBoxes)
+            let hue = 1 / CGFloat(numBoxes) * CGFloat(i)
             box.backgroundColor = UIColor(hue: hue, saturation: 1, brightness: 1, alpha: 1)
             box.center.x = center.x
-            box.center.y = bounds.height/CGFloat(numBoxes)*CGFloat(i)
+            box.center.y = bounds.height/CGFloat(numBoxes - 1) * CGFloat(i)
         }
     }
 

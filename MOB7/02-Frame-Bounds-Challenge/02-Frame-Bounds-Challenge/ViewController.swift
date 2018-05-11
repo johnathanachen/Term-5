@@ -15,8 +15,9 @@ class ViewController: UIViewController {
         
         let rect = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         
-        self.view = FillScreen(frame: rect)
-//        RainbowStackView()
+//        self.view = FillScreen(frame: rect)
+        self.view = RainbowStackView(frame: rect)
+
 
         
     }
