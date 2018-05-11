@@ -17,7 +17,8 @@ class ViewController: UIViewController {
         
 //        self.view = FillScreen(frame: rect)
 //        self.view = RainbowStackView(frame: rect)
-        self.view = EightGrid(frame: rect)
+//        self.view = EightGrid(frame: rect)
+        self.view = ConcentricSquares(frame: rect)
 
 
         

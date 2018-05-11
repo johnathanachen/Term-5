@@ -13,22 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setup()
+        let rect = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height)
+        
+//        self.view = Popup(frame: rect)
+        self.view = SpringPopup(frame: rect)
+        
         
     }
 
-    func setup() {
-        for i in 0 ... 6 {
-            let width = view.bounds.width / 5
-            let randNumber = CGFloat(arc4random() % 1)
-            let randColor = UIColor(red: randNumber, green: randNumber, blue: randNumber, alpha: 1)
-            let rect = CGRect(x: 0, y: width + CGFloat(i), width: width, height: width)
-            let boxRow = UIView(frame: rect)
-            
-            view.addSubview(boxRow)
-        }
-        
-    }
+    
 
 }
 

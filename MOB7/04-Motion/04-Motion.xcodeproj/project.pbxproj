@@ -12,6 +12,8 @@
 		B83005AB20A4C4FE0010ACBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83005A920A4C4FE0010ACBD /* Main.storyboard */; };
 		B83005AD20A4C4FF0010ACBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83005AC20A4C4FF0010ACBD /* Assets.xcassets */; };
 		B83005B020A4C4FF0010ACBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83005AE20A4C4FF0010ACBD /* LaunchScreen.storyboard */; };
+		B8A9351620A5595A006688E3 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9351520A5595A006688E3 /* Popup.swift */; };
+		B8A9351820A55F02006688E3 /* SpringPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9351720A55F02006688E3 /* SpringPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B83005AC20A4C4FF0010ACBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83005AF20A4C4FF0010ACBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83005B120A4C4FF0010ACBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A9351520A5595A006688E3 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		B8A9351720A55F02006688E3 /* SpringPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B83005A520A4C4FE0010ACBD /* AppDelegate.swift */,
 				B83005A720A4C4FE0010ACBD /* ViewController.swift */,
+				B8A9351520A5595A006688E3 /* Popup.swift */,
+				B8A9351720A55F02006688E3 /* SpringPopup.swift */,
 				B83005A920A4C4FE0010ACBD /* Main.storyboard */,
 				B83005AC20A4C4FF0010ACBD /* Assets.xcassets */,
 				B83005AE20A4C4FF0010ACBD /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A9351620A5595A006688E3 /* Popup.swift in Sources */,
 				B83005A820A4C4FE0010ACBD /* ViewController.swift in Sources */,
 				B83005A620A4C4FE0010ACBD /* AppDelegate.swift in Sources */,
+				B8A9351820A55F02006688E3 /* SpringPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
